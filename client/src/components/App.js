@@ -12,7 +12,7 @@ import StreamShow from './streams/StreamShow';
 const App = () => {
     return (
       <div className="ui container">
-        <Router history={history}s>
+        <Router history={history}>
           <div>
             <Header/>
             <Route path="/" exact component={StreamList}/>

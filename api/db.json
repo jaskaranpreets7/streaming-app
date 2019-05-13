@@ -1,3 +1,21 @@
 {
-    "streams" : []
+  "streams": [
+    {
+      "title": "Not my stream",
+      "description": "this is nothing",
+      "id": 1
+    },
+    {
+      "title": "batman ",
+      "description": "bruce is the batman",
+      "userId": "103866286694315137951",
+      "id": 2
+    },
+    {
+      "title": "pokemon ",
+      "description": "detective pika",
+      "userId": "103866286694315137951",
+      "id": 3
+    }
+  ]
 }

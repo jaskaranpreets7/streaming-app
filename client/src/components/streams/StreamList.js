@@ -31,9 +31,10 @@ class StreamList extends Component{
             {stream.title}
             <div className="description">
               {stream.description}
+              {this.renderAdmin(stream)}
+
             </div>
           </div>
-          {this.renderAdmin(stream)}
         </div>
       )
     })

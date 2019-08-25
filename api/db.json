@@ -6,16 +6,33 @@
       "id": 1
     },
     {
-      "title": "batman ",
-      "description": "bruce is the batman",
+      "title": "Batman ",
+      "description": "Bruce is the batman",
       "userId": "103866286694315137951",
       "id": 2
     },
     {
-      "title": "pokemon ",
-      "description": "detective pika",
+      "title": "Pokemon ",
+      "description": "Detective Pikachu",
       "userId": "103866286694315137951",
       "id": 3
+    },
+    {
+      "title": "other stream",
+      "description": "different stream",
+      "id": 4
+    },
+    {
+      "title": "React",
+      "description": "Course on React/Redux",
+      "userId": "103866286694315137951",
+      "id": 5
+    },
+    {
+      "title": "NBA",
+      "description": "Golden State Warriors",
+      "userId": "103866286694315137951",
+      "id": 6
     }
   ]
 }

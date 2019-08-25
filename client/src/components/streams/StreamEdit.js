@@ -9,8 +9,8 @@ class StreamEdit extends Component{
   componentDidMount(){
     this.props.fetchStream(this.props.match.params.id)
   }
-  onSubmit = (id,formValues) => {
-    this.props.editStream(this.props.match.params.id,formValues)
+  onSubmit = (formData) => {
+    this.props.editStream(this.props.match.params.id,formData)
   }
 
   render(){

@@ -35,7 +35,7 @@ export const fetchStreams = () => async dispatch => {
        })
     };
 
-export const fetchStream = (id) => async dispatch => {
+export const fetchStream = id => async dispatch => {
     const response = await streams.get(`/streams/${id}`);
         dispatch({
             type: FETCH_STREAM,
@@ -52,10 +52,11 @@ export const editStream = (id,formData) => async dispatch => {
         history.push('/');
     };
 
-export const deleteStream = (id) => async dispatch => {
+export const deleteStream = id => async dispatch => {
    await streams.delete(`/streams/${id}`);
         dispatch({
             type: DELETE_STREAM,
             payload: id
         })
+        history.push('/')
     };
